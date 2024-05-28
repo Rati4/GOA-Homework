@@ -3,6 +3,7 @@ from turtle import *
 #we want to paint a house
 
 #step 1:   draw a square
+begin_fill()
 speed(30)
 width(7)
 color("purple")
@@ -17,6 +18,7 @@ left(90)
 
 forward(200)
 left(90)
+end_fill()
 #end of square
 
 #drawing a door
